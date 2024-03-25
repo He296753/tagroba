@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+label {
+    color: rgb(10, 7, 189);
+    font-family: "Arial", sans-serif;
+}
+
+input[type="number"] {
+    color: red;
+    background-color: rgba(255, 0, 0, 0.411);
+}
+
+button {
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    font-family: "Arial", sans-serif;
+}
+
+#profit {
+    color: rgb(255, 0, 0);
+    font-family: "Arial", sans-serif;
+    margin-top: 10px;
+}
+
+#percentage {
+    font-size: 15;
+    font-weight: bold;
+    color: red;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    border: 1px solid red;
+}
+
+#percentage span {
+    background-color: white;
+    padding: 5px;
+}
